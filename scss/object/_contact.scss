@@ -1,0 +1,50 @@
+.contact {
+  text-align: center;
+  margin: 8rem 0;
+  color: cl(white);
+  .contact-wrapper {
+    background-image: url('../img/2020mitasai.jpg');
+    background-size: cover;
+    padding: 15rem 0;
+    h2 {
+      display: inline-block;
+      font-size: 3rem;
+      margin-bottom: 3rem;
+      background-color: cl( black);
+      padding: 0 1rem;
+      opacity: 0.95;
+    }
+    .contact-message {
+      display: inline-block;
+      font-size: 1.6rem;
+      line-height: 4rem;
+      margin-bottom: 3rem;
+      background-color: cl(black);
+      padding: 2rem 3rem;
+      opacity: 0.95;
+    }
+    .contact-icon {
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+      margin: 0 auto;
+      .icon {
+        .fab {
+          font-size: 4rem;
+        }
+        // .fa-facebook {
+        //   color: blue;
+        // }
+        // .fa-instagram {
+        //   color: orangered;
+        // }
+        // .fa-twitter-square {
+        //   color: paleturquoise;
+        // }
+        // .fa-line {
+        //   color: springgreen;
+        // }
+      }
+    }
+  }
+}

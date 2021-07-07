@@ -1,0 +1,28 @@
+.header {
+  height: 8rem;
+  line-height: 8rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url('../../img/background-cover.jpg');
+  background-size: cover;
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    .site-logo {
+      width: 22rem;
+      font-size: 2rem;
+      img {
+        vertical-align: middle;
+      }
+    }
+    .header-nav {
+      .nav-list {
+        display: flex;
+        .nav-item {
+          font-size: 1.8rem;
+          margin-left: 3rem;
+        }
+      }
+    }
+  }
+}

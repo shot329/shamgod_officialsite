@@ -1,0 +1,14 @@
+.fv {
+  background-image: url('../img/background-cover.jpg');
+  background-size: cover;
+  .inner {
+    .fv-img-list {
+      .fv-img-item {
+        background-image: url('../img/2018mitasai.jpg');
+        background-size: cover;
+        background-position: center 0;
+        height: calc(100vh - 15rem);
+      }
+    }
+  }
+}

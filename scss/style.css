@@ -1,0 +1,423 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Hiragino Mincho Pro',serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.inner {
+  max-width: calc(100% - 14rem);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.inner2 {
+  max-width: 102.4rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.cmn-btn {
+  display: inline-block;
+  font-size: 1.6rem;
+  background-color: #232938;
+  padding: 1rem;
+  position: relative;
+}
+
+.cmn-btn a {
+  color: #fff;
+}
+
+.cmn-btn .line {
+  display: block;
+  height: 0.6px;
+  width: 10rem;
+  background-color: #fff;
+}
+
+.cmn-btn .line2 {
+  display: block;
+  height: 0.6px;
+  width: 1.2rem;
+  background-color: #fff;
+  position: absolute;
+  right: 1rem;
+  bottom: 1.3rem;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.header {
+  height: 8rem;
+  line-height: 8rem;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("../../img/background-cover.jpg");
+  background-size: cover;
+}
+
+.header .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .inner .site-logo {
+  width: 22rem;
+  font-size: 2rem;
+}
+
+.header .inner .site-logo img {
+  vertical-align: middle;
+}
+
+.header .inner .header-nav .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .inner .header-nav .nav-list .nav-item {
+  font-size: 1.8rem;
+  margin-left: 3rem;
+}
+
+.sidebar {
+  width: 7rem;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  bottom: 6rem;
+  text-align: center;
+}
+
+.sidebar small {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  margin-bottom: 14rem;
+}
+
+.sidebar .sidebar-icon .icon {
+  font-size: 3rem;
+}
+
+.fv {
+  background-image: url("../img/background-cover.jpg");
+  background-size: cover;
+}
+
+.fv .inner .fv-img-list .fv-img-item {
+  background-image: url("../img/2018mitasai.jpg");
+  background-size: cover;
+  background-position: center 0;
+  height: calc(100vh - 15rem);
+}
+
+.news {
+  padding: 10rem 0;
+  background-image: url("../img/background-cover.jpg");
+  background-size: cover;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.news .news-wrapper {
+  text-align: center;
+}
+
+.news .news-wrapper h2 {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.news .news-wrapper .news-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.news .news-wrapper .news-list .news-item {
+  width: calc((100% - 6rem)/4);
+}
+
+.news .news-wrapper .news-list .news-item:nth-child(n+2) {
+  margin-left: 2rem;
+}
+
+.news .news-wrapper .news-list .news-item .news-date {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.news .news-wrapper .news-list .news-item .news-title {
+  margin-top: 0.6rem;
+  font-size: 1.8rem;
+}
+
+.news .news-wrapper .cmn-btn {
+  text-align: center;
+}
+
+.concept {
+  padding: 10rem 0;
+  background-image: url("../img/background-cover.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.concept .inner2 {
+  max-width: 92rem;
+  margin: 0 auto;
+}
+
+.concept .inner2 h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.concept .inner2 p {
+  font-size: 1.6rem;
+  line-height: 4rem;
+  margin-bottom: 3rem;
+}
+
+.concept .inner2 .concept-message {
+  font-size: 2.4rem;
+}
+
+.concept .inner2 .most-important {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.concept .inner2 iframe {
+  width: 67.2rem;
+  height: 37.8rem;
+  margin-top: 6rem;
+}
+
+.blog {
+  padding: 6rem 0;
+  background-color: #232938;
+  color: #fff;
+}
+
+.blog .inner2 {
+  text-align: center;
+}
+
+.blog .inner2 h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.blog .inner2 h2 span {
+  font-size: 1.8rem;
+}
+
+.blog .inner2 .blog-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.blog .inner2 .blog-list .blog-item {
+  width: calc((100% - 8rem)/3);
+  text-align: left;
+}
+
+.blog .inner2 .blog-list .blog-item .blog-title {
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
+}
+
+.blog .inner2 .blog-list .blog-item .blog-date {
+  font-size: 1.4rem;
+  margin-top: 1.2rem;
+}
+
+.blog .inner2 .cmn-btn {
+  text-align: left;
+  background-color: #fff;
+}
+
+.blog .inner2 .cmn-btn a {
+  color: #232938;
+}
+
+.blog .inner2 .cmn-btn .line,
+.blog .inner2 .cmn-btn .line2 {
+  background-color: #232938;
+}
+
+.member {
+  padding: 10rem 0;
+  background-image: url("../img/background-cover.jpg");
+  background-size: cover;
+}
+
+.member .about-list {
+  margin-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.member .about-list .about-item {
+  width: 50%;
+}
+
+.member .about-list .about-item:nth-child(2) .about-text1 {
+  text-align: center;
+}
+
+.member .about-list .about-item:nth-child(2) .about-text1 .item-subtitle {
+  margin-top: 1.5rem;
+  font-size: 2.6rem;
+}
+
+.member .about-list .about-item:nth-child(2) .about-text1 .text-list {
+  margin-top: 1rem;
+}
+
+.member .about-list .about-item:nth-child(2) .about-text1 .text-list .text-item {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.member .about-list .about-item:nth-child(2) .about-text1 .info-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 25%;
+  margin: 1rem auto 0;
+}
+
+.member .about-list .about-item:nth-child(2) .about-text1 .info-list .info-item {
+  font-size: 3.6rem;
+}
+
+.member .about-list .about-item:nth-child(2) .about-text1 .info-list .info-item i:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.member .about-list .about-item:nth-child(2) .about-text1 .cmn-btn {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.member .about-list .about-item:nth-child(3) {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+.member .about-list .about-item:nth-child(4) {
+  text-align: center;
+}
+
+.member .about-list .about-item:nth-child(4) .about-text2 {
+  margin-left: auto;
+}
+
+.member .about-list .about-item:nth-child(4) .about-text2 .item-subtitle {
+  margin-top: 1rem;
+  font-size: 2.6rem;
+}
+
+.member .about-list .about-item:nth-child(4) .about-text2 .text-list {
+  margin-top: 1rem;
+}
+
+.member .about-list .about-item:nth-child(4) .about-text2 .text-list .text-item {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.member .about-list .about-item:nth-child(4) .about-text2 .text-list .text-item .sp-br {
+  display: none;
+}
+
+.member .about-list .about-item:nth-child(4) .about-text2 .cmn-btn {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.contact {
+  text-align: center;
+  margin: 8rem 0;
+  color: #fff;
+}
+
+.contact .contact-wrapper {
+  background-image: url("../img/2020mitasai.jpg");
+  background-size: cover;
+  padding: 15rem 0;
+}
+
+.contact .contact-wrapper h2 {
+  display: inline-block;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  background-color: #222;
+  padding: 0 1rem;
+  opacity: 0.95;
+}
+
+.contact .contact-wrapper .contact-message {
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: 4rem;
+  margin-bottom: 3rem;
+  background-color: #222;
+  padding: 2rem 3rem;
+  opacity: 0.95;
+}
+
+.contact .contact-wrapper .contact-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.contact .contact-wrapper .contact-icon .icon .fab {
+  font-size: 4rem;
+}
+/*# sourceMappingURL=style.css.map */

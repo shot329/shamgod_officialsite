@@ -1,0 +1,17 @@
+.sidebar {
+  width: 7rem;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  bottom: 6rem;
+  text-align: center;
+  small {
+    writing-mode: vertical-rl;
+    margin-bottom: 14rem;
+  }
+  .sidebar-icon {
+    .icon {
+      font-size: 3rem;
+    }
+  }
+}
