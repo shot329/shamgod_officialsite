@@ -1,0 +1,39 @@
+.inner {
+  max-width: calc(100% - 14rem);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.inner2 {
+  max-width: 102.4rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.cmn-btn {
+  display: inline-block;
+  font-size: 1.6rem;
+  // font-family: fn(basker), serif;
+  background-color: cl(darkblue);
+  padding: 1rem;
+  position: relative;
+  a {
+    color: cl(white);
+  }
+  .line {
+    display: block;
+    height: 0.6px;
+    width: 10rem;
+    background-color: cl(white);
+  }
+  .line2 {
+    display: block;
+    height: 0.6px;
+    width: 1.2rem;
+    background-color: cl(white);
+    position: absolute;
+    right: 1rem;
+    bottom: 1.3rem;
+    transform: rotate(30deg);
+  }
+}
